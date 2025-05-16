@@ -1,0 +1,17 @@
+# Ambientes virtuais
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+
+# Arquivos de configuração local
+.env
+.streamlit/secrets.toml
+
+# Arquivos temporários
+*.log
+*.zip
+*.docx
+*.pub
+*.DS_Store
