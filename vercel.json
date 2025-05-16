@@ -1,14 +1,3 @@
 {
-  "builds": [
-    {
-      "src": "app/app_principal.py",
-      "use": "@vercel/python"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "app/app_principal.py"
-    }
-  ]
+  "ignoreCommand": "echo Ignored by .vercelignore"
 }
