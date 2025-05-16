@@ -1,0 +1,24 @@
+# Ignorar ambientes virtuais
+venv/
+env/
+.venv/
+
+# Ignorar cache e build do Python
+__pycache__/
+*.pyc
+
+# Ignorar dados locais pesados
+data/
+coleta/
+alerts/
+database/
+
+# Ignorar arquivos desnecessários
+*.log
+*.zip
+*.docx
+*.pub
+
+# Ignorar segredos e configs locais
+.env
+.streamlit/secrets.toml
